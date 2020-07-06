@@ -14,7 +14,7 @@ public class JavaSampleProjectApplication {
 		SpringApplication.run(JavaSampleProjectApplication.class, args);
 	}
 	
-	@RequestMapping("")
+	@RequestMapping("/")
 	public String test()
 	{
 		return "Hello World";
